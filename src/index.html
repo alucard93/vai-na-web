@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- TAILWIND -->
+    <link rel="stylesheet" href="../dist/style.css" />
+
+    <!-- GOOGLE FONTS -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Marcus Vinicius</title>
+  </head>
+
+  <body
+    class="bg-[#313538] flex flex-col justify-center items-center w-full font-sans"
+  >
+    <header
+      class="w-full flex justify-between items-center p-4 border-b border-white"
+    >
+      <h1 class="text-5xl text-white font-bold">
+        <span class="text-[#B16EF4]">M</span>arcus Vinicius
+      </h1>
+      <figure class="w-20 h-20 overflow-hidden bord">
+        <img
+          class="rounded-[50%] object-cover"
+          src="assets/eu.svg"
+          alt="imagem do dono da página"
+        />
+      </figure>
+    </header>
+
+    <main>
+      <section class="text-white p-6 flex flex-col gap-4 md:grid md:grid-cols-2 md:grid-rows-2 md:gap-4 lg:grid lg:grid-cols-3 lg:grid-rows-2 xl:grid xl:grid-cols-4 xl:grid-rows-1">
+        <article class="border border-white rounded flex flex-col gap-4 p-4">
+          <p class="text-2xl" title="descrição dono da página ">
+            <span class="text-[#B16EF4] text-2xl">S</span>ou uma pessoa
+            apaixonada por aprender e explorar novos horizontes. Tenho 30 anos e
+            tenho interesse em diversas áreas, incluindo tecnologia, ciência e
+            arte. Atualmente, moro em Unamar e estou animado para compartilhar
+            minhas experiências e conhecimentos com você.
+          </p>
+          <a
+            class="text-2xl text-blue cursor-pointer hover:text-blue-500"
+            href="http://cabofrionewsrj.blogspot.com/2012/04/historia-da-regiao-dos-lagos-unamar.html"
+            title="Leia a história do meu bairro, Unamar"
+            >História do meu bairro</a
+          >
+        </article>
+        <article class="border border-white rounded text-2xl p-4">
+          <h2><span class="text-[#B16EF4]">S</span>uas Características</h2>
+          <ul class="m-4">
+            <li>Curioso</li>
+            <li>Determinado</li>
+            <li>Flexível</li>
+          </ul>
+        </article>
+        <article class="border border-white rounded text-2xl p-4">
+          <h2><span class="text-[#B16EF4]">S</span>uas Habilidades</h2>
+          <ol class="m-4">
+            <li>Programação</li>
+            <li>Design gráfico</li>
+            <li>Comunicação</li>
+          </ol>
+        </article>
+        <article class="border border-white rounded text-2xl p-4">
+          <h2><span class="text-[#B16EF4]">C</span>omidas preferidas:</h2>
+          <ol class="m-4">
+            <li>Pizza</li>
+            <li>Sushi</li>
+            <li>Chocolate</li>
+          </ol>
+        </article>
+      </section>
+    </main>
+    <footer class="flex flex-col items-center p-4 border-t border-white w-full">
+      <nav>
+        <a
+          class="text-white text-xl hover:text-blue-500"
+          href="https://www.linkedin.com/in/marcus-vinicius-05855193/"
+          ><span class="text-blue-500">L</span>inkedin
+        </a>
+      </nav>
+
+      <form
+        class="flex flex-col gap-4 border p-16 max-w-[360px] text-white rounded"
+      >
+        <label for="nome"><span class="text-[#B16EF4]">N</span>ome:</label>
+        <input
+          class="bg-[#681652] hover:opacity-70 transition-[0.5]"
+          type="text"
+          id="nome"
+        />
+
+        <label for="email"><span class="text-[#B16EF4]">E</span>mail:</label>
+        <input
+          class="bg-[#681652] hover:opacity-70 transition-[0.5]"
+          type="email"
+          id="email"
+        />
+
+        <label for="idade"><span class="text-[#B16EF4]">I</span>dade:</label>
+        <input
+          class="bg-[#681652] hover:opacity-70 transition-[0.5]"
+          type="number"
+          id="idade"
+        />
+
+        <input
+          class="bg-[#681652] hover:opacity-70 h-12 mt-2 rounded transition-[0.5]"
+          type="submit"
+          value="Enviar"
+        />
+      </form>
+    </footer>
+  </body>
+</html>
